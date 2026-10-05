@@ -1,0 +1,12 @@
+/* Actions Message — le CSS chat est injecté par index.js (<style id="message-actions-style">).
+   Ce fichier ne contient que le style du panneau de réglages. */
+.ma-settings select,
+.ma-settings .menu_button { width: 100%; box-sizing: border-box; }
+.ma-settings .ma-status { margin: 2px 0 6px; }
+.ma-settings .ma-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin: 4px 0; }
+.ma-settings .ma-row > span { flex: 1; min-width: 0; }
+.ma-settings .ma-row input[type="range"] { flex: 1; max-width: 50%; }
+.ma-settings .ma-val { opacity: .6; white-space: nowrap; }
+.ma-settings .ma-disabled { opacity: .45; pointer-events: none; }
+.ma-settings .ma-h { margin: 6px 0 2px; }
+.ma-settings .checkbox_label { margin: 3px 0; }
